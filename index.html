@@ -11,18 +11,19 @@
     <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
     <p>You <em>know</em> you want to.</p>
     <h2>Let's do this!</h2>
-    <form>
+    <form id="odin-form">
+
         <label for="first-name">FIRST NAME</label>
-        <input type="text" id="first-name" name="first-name">
+        <input type="text" id="first-name" name="first-name" placeholder="Thor">
 
         <label for="last-name">LAST NAME</label>
-        <input type="text" id="last-name" name="last-name">
+        <input type="text" id="last-name" name="last-name" placeholder="Odinson">
 
         <label for="email-address">EMAIL</label>
-        <input type="email" id="email-address" name="email-address">
+        <input type="email" id="email-address" name="email-address" value="example@email.com">
 
         <label for="phone-number">PHONE NUMBER</label>
-        <input type="tel" id="phone-number" name="phone-number">
+        <input type="tel" id="phone-number" name="phone-number" placeholder="0400 000 000" pattern="[0-9]{4}\s[0-9]{3}\s[0-9]{3}" value="0400 000 000">
 
         <label for="password">PASSWORD</label>
         <input type="text" id="password" name="password">
@@ -30,8 +31,8 @@
         <label for="confirm-password">CONFIRM PASSWORD</label>
         <input type="text" id="confirm-password" name="confirm-password">
 
-        <button>Create Account</button>
-        <p>Already have an account?<a href="#">Log in</a></p>
     </form>
+    <button type="submit" form="odin-form">Create Account</button>
+    <p>Already have an account?<a href="#">Log in</a></p>
 </body>
 </html>
