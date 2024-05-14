@@ -6,3 +6,11 @@
 h1 {
     font-family: norse-bold;
 }
+
+.non-matching {
+    border: solid red;
+}
+
+.warning {
+    color: red;
+}
