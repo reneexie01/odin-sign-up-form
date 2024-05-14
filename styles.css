@@ -3,6 +3,57 @@
     src: url(Norse-Bold.otf);
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.left-side {
+    width: 30%;
+    position: relative;
+}
+
+.background-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.top-left {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-left {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+}
+
+.bottom-left a {
+    color: white;
+}
+
+.odin-logo {
+    width: 20%;
+}
+
+.right-side {
+    width: 70%
+}
+
 h1 {
     font-family: norse-bold;
 }
