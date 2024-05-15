@@ -88,6 +88,7 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
     font-size: 1.5rem;
+    color: #333C49;
 }
 
 .top-right p:nth-of-type(3) {
@@ -104,14 +105,12 @@ h1 {
 
 .middle-right h2 {
     font-size: 1.5rem;
-    color: #333C49;
 }
 
 label {
     font-size: 0.8rem;
     padding-top: 5%;
     padding-bottom: 1%;
-    color: #333C49;
 }
 
 input {
@@ -119,6 +118,7 @@ input {
     height: 30px;
     border: 1px solid #F0F1F3;
     padding-left: 2%;
+    border-radius: 5px;
 }
 
 .label-input {
@@ -152,12 +152,36 @@ input {
 
 .bottom-right {
     height: 30%;
+    padding-top: 5%;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 1px solid #596D48;
+    padding: 2% 9%;
+    border-radius: 5px;
+}
+
+.bottom-right p {
+    padding-top: 5%;
+    font-size: 1rem;
+}
+
+.bottom-right p a {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .non-matching {
-    border: solid red;
+    border: solid #C33C3B;
 }
 
 .warning {
-    color: red;
+    color: #C33C3B;
+    font-size: 0.75rem;
+    font-weight: normal;
 }

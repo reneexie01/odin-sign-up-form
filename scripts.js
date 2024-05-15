@@ -12,7 +12,7 @@ submit.addEventListener("click",() => {
         confirmPassword.classList.add("non-matching");
 
         const passwordWarning = document.createElement("p");
-        passwordWarning.innerText = "Passwords do not match";
+        passwordWarning.innerText = "* Passwords do not match";
         warning.appendChild(passwordWarning);
     } 
 })
